@@ -1,0 +1,139 @@
+    1  adduser centos02
+    2  passwd centos02
+    3  visudo
+    4  init 6
+    5  yum update -y
+    6  kil pid:3248
+    7  kill pid:3248
+    8  kill3248
+    9  kill 3248
+   10  exit
+   11  yum install epel-release
+   12  yum install ansible
+   13  ansible --version
+   14  ip -a
+   15  ip -addr
+   16  ip -a
+   17  ip
+   18  ip -a
+   19  hostnamectl set-hostname --static ansiblebk
+   20  bash
+   21  exit
+   22  clear
+   23  cd customer1
+   24  ls
+   25  vi nginx.yaml
+   26  ansible-playbook nginx.yaml
+   27  vi nginx.yaml
+   28  ansible-playbook nginx.yaml
+   29  vi nginx.yaml
+   30  ansible-playbook nginx.yaml
+   31  vi nginx.yaml
+   32  ansible-playbook nginx.yaml
+   33  vi nginx.yaml
+   34  ansible-playbook nginx.yaml
+   35  vi nginx.conf.centos.patch
+   36  ansible-playbook nginx.yaml
+   37  mkdir files
+   38  cd files
+   39  vi nginx.conf.centos.patch
+   40  cd ..
+   41  ansible-playbook nginx.yaml
+   42  cd files
+   43  vi nginx-default.conf
+   44  cd ..
+   45  ansible-playbook nginx.yaml
+   46  mkdir templates
+   47  vi index.html.j2
+   48  cd templates
+   49  vi index.html.j2
+   50  cd ..
+   51  ansible-playbook nginx.yaml
+   52  cd templates
+   53  vi index.html.j2
+   54  cd ..
+   55  ansible-playbook nginx.yaml
+   56  cd ..
+   57  yum install git
+   58  git init
+   59  git status
+   60  ls -la
+   61  cd customer1
+   62  git init
+   63  git add motd.yaml
+   64  git status
+   65  git commit -m "First commit"
+   66  git config --global user.email "bhupesh.kumar@yahoo.com"
+   67  git config --global user.name "Bhupesh"
+   68  git commit -m "First commit"
+   69  git status
+   70  git log
+   71  git remote add origin https://github.com/bhupesh-2020/devops.git
+   72  git push -u origin master
+   73  git status
+   74  git log
+   75  touch .gitignore
+   76  vi .gitignore
+   77  touch auth
+   78  git add .
+   79  git commit -m "All Files"
+   80  git push -u origin master
+   81  git branch feature
+   82  git branch
+   83  git checkout feature
+   84  git branch
+   85  vi newfile.txt
+   86  git add .
+   87  git status
+   88  git commit -m "Feature Branch New File"
+   89  git push -u origin master
+   90  git push -u origin feature
+   91  git checkout master
+   92  git branch
+   93  git branch --merged
+   94  git merge feature
+   95  push -u origin master
+   96  bhupesh-2020
+   97  git push -u origin master
+   98  branch -a
+   99  git branch -a
+  100  git branch -d feature
+  101  git branch
+  102  git branch -a
+  103  git push --delete feature
+  104  git push orogin  --delete feature
+  105  git push origin --delete feature
+  106  git branch -a
+  107  ls
+  108  git fetch
+  109  git pull
+  110  ls
+  111  vi newfile.txt
+  112  git diff newfile.txt
+  113  git checkout newfile.txt
+  114  git diff newfile.txt
+  115  git status
+  116  git reflog
+  117  history > TodayHistory.txt
+  118  git add . 
+  119  git commit -m "Today History"
+  120  git push -u origin master
+  121  yum install java-1.8.0-openjdk-devel
+  122  wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins.io/redhat-stable/jenkins.repo
+  123  rpm --import http://pkg.jenkins.io/redhat-stable/jenkins.io.key
+  124  yum install jenkins
+  125  systemctl start jenkins
+  126  systemctl enable jenkins
+  127  systemctl disable firewalld
+  128  ip a
+  129  systemctl disable firewalld
+  130  systemctl stop firewalld
+  131  systemctl disable firewalld
+  132  cat /var/lib/jenkins/secrets/initialAdminPassword
+  133  vi tesJenkin.java
+  134  vi HelloWorld.java
+  135  git add .
+  136  git commit -m "Hello world program"
+  137  git push origin master
+  138  history
+  139  history > history_3Sep.txt
